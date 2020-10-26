@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+  background-color: #2b2d42;
+  color: #ef233c;
+}
+.sideNav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  background-color: #222335;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.sideNav img{
+  width: 50px;
+  display: block;
+}
+.ProfileIcone{
+  display: block;
+  width: 10%;
+  position: absolute;
+  bottom: 20px;
+}
+.sideNav a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ef233c;
+  display: block;
+  text-align: center;
+}
+.main {
+  text-align: center;
+  margin-left: 50px;
+
+}
+.main h1{
+    font-family: Poppins;
+    font-size: 35px;
+}
+.main p{
+    font-family: Poppins;
+    font-size: 25px;
+}
+.Welcome{
+  padding-left: 10px;  
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+.Welcome img{
+    width: 10%;
+    
+}
+
+.siteStatus{
+    background-image: url("/view/images/darkLol.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    line-height: 400px;
+    height: 400px;
+    width: 100%;
+    margin-top: 0px;
+}
+.siteStatus h1{
+    font-size: 100px;
+    font-style:italic;
+}
