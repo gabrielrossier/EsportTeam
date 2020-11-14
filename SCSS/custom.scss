@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+$mainColor:#2b2d42;
+$thirdColor: #222335;
+$mainColorLowOpacity:#2b2d42ce;
+$secondColor:#ef233c;
+html{
+  height: 100%;
+  
+}
+body {
+  background-image: url("/view/images/darkLol.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  color: $secondColor;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: all .5s;
+  height: 100%;
+  
+}
+.sideNav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  background-color: #222335;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.sideNav img{
+  width: 50px;
+  display: block;
+}
+.ProfileIcone{
+  display: block;
+  width: 10%;
+  position: absolute;
+  bottom: 20px;
+}
+.sideNav a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $secondColor;
+  display: block;
+  text-align: center;
+}
+.Title{
+  height: 300px;
+  width: 100%;
+  top: 0px;
+  background-color: $mainColor;
+  position: absolute;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+
+  img{
+    width: 10%;
+  }
+  
+}
+
+.main {
+  text-align: center;
+  margin-left: 50px;
+  height: 100%;
+
+}
+.main h1{
+    font-family: Poppins;
+    font-size: 35px;
+    text-align: center;
+}
+.main h2{
+  font-family: Poppins;
+  text-align: center;
+}
+.main p{
+    font-family: Poppins;
+    font-size: 25px;
+}
+.Welcome{
+  padding-top: 80px;  
+  background-color: $mainColor;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+  width: 100%;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+.Welcome img{
+    width: 10%;
+    
+}
+
+.siteStatus{
+    
+    background-size: 100%;
+    background-attachment: fixed;
+    line-height: 400px;
+    height: 400px;
+    width: 100%;
+    margin-top: -65px;
+}
+.siteStatus h1{
+    font-size: 100px;
+
+}
+/*TEAMS =============================================================*/
+
+
+.teamList{
+  overflow-y: scroll;
+
+  position: fixed;
+  top:300px;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  .team{
+    background-color: $mainColorLowOpacity;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top:20px;
+    transition: all .5s;
+  
+  }
+  .teamImage{
+    display: inline-block;
+    height: 100%;
+    float: left;
+    img{
+      height: 90%;
+      margin-left: 2px;
+      margin-top: 5%;
+    }
+  }
+  .teamInfos{
+    display: inline-block;
+    padding-left: 20px;;
+  }
+  .teamTitle{
+    position: relative;
+    line-height: 80%;
+  
+    text-align: left;
+  }
+  .teamGame{
+  position: relative;
+  text-align: left;
+  height: 100%;
+}
+.teamContract{
+  
+  display: inline-block;
+  height:90%;
+  right: 0px;
+  float: right;
+  img {
+    height: 100%;
+    margin-top:5px;
+  }
+  
+}
+a{
+  background-color: transparent;
+  border:solid;
+  border-color: $secondColor;
+  border-radius: 3px;
+  height: 30px;
+  width: 508px;
+  color:$secondColor;
+  transition: all .5s;
+  margin: auto;
+}
+a:hover{
+  background-color: $secondColor;
+  border:solid;
+  border-color: $secondColor;
+  border-radius: 3px;
+  height: 30px;
+  width: 508px;
+  color:white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*LOGIN=========================================================*/
+
+.loginForm{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  form{
+    padding: 30px;
+    margin:auto;
+    margin-top: auto;
+    background-color: $mainColorLowOpacity;
+    display:flex;
+    flex-direction: column;
+  }
+  input[type=text]{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    color:$secondColor;
+    transition: all .5s;
+    margin-bottom: 5px;
+
+  }
+  input[type=password]{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    color:$secondColor;
+    transition: all .5s;
+    margin-bottom: 5px;
+
+
+  }
+  input[type=submit]{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 308px;
+    color:$secondColor;
+    transition: all .5s;
+    margin: auto;
+  }
+  input[type=submit]:hover{
+    background-color: $secondColor;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 308px;
+    color:white;
+  }
+  input[type=text]:focus{
+    background-color: $secondColor;
+    border:none;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    color:white;
+  }
+  input[type=password]:focus{
+    background-color: $secondColor;
+    border:none;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+    color:white;
+  }
+  ::placeholder{
+    color: white;
+  }
+
+}
+/*Create ======================================*/
+.createForm{
+  position: fixed;
+  top:300px;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: $mainColorLowOpacity;
+  input[type=text]{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 500px;
+    color:$secondColor;
+    transition: all .5s;
+    margin: auto;
+
+  }
+  input[type=text]:focus{
+    background-color: $secondColor;
+    border:none;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 600px;
+    color:white;
+  }
+  textarea{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 500px;
+    color:$secondColor;
+    transition: all .5s;
+    margin: auto;
+  }
+  textarea:focus{
+    background-color: $secondColor;
+    border:none;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 300px;
+    width: 600px;
+    color:white;
+  }
+  select{
+    margin:auto;
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 500px;
+    color:white;
+    transition: all .5s;
+    margin: auto;
+  }
+  select:focus{
+    background-color: $secondColor;
+    border:none;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 600px;
+    color:white;
+  }
+  input[type=submit]{
+    background-color: transparent;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 508px;
+    color:$secondColor;
+    transition: all .5s;
+    margin: auto;
+  }
+  input[type=submit]:hover{
+    background-color: $secondColor;
+    border:solid;
+    border-color: $secondColor;
+    border-radius: 3px;
+    height: 30px;
+    width: 508px;
+    color:white;
+  }
+  ::placeholder{
+    color: white;
+  }
+}
